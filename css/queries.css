@@ -1,0 +1,210 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 4.4rem;
+  }
+
+  .brand-logo {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .why-text {
+    font-weight: 600;
+    letter-spacing: 0px;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .hero {
+    max-width: 120rem;
+  }
+
+  .brand-logo {
+    font-size: 2rem;
+  }
+
+  .section-hero {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-news {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-why {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-testimonials {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-cta {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .brand-logo {
+    font-size: 1.8rem;
+  }
+
+  .hero {
+    max-width: 110rem;
+  }
+
+  .section-hero {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-news {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-why {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-testimonials {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .section-cta {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
+  .section-footer {
+    padding: 4.8rem 4.8rem;
+  }
+
+  .why-text {
+    font-size: 1.6rem;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3.2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.2rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 70%;
+  }
+
+  .cta-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 34em) {
+  .grid-4-cols {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 3.2rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 3.2rem;
+  }
+
+  .brand-logo:link,
+  .brand-logo:visited {
+    font-size: 1.8rem;
+  }
+
+  .section-hero {
+    padding-top: 3.2rem;
+  }
+}
